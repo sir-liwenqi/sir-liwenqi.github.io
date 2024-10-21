@@ -1,0 +1,28 @@
+#subtitle {
+    font-family: DM Sans Medium, sans-serif;
+}
+
+.flex-center {
+    position: relative;
+}
+
+.topquotes {
+    font-family: Archia Regular, sans-serif;
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    /* 初始状态透明 */
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 3s;
+    /* 3秒后执行动画 */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        /* 最终状态完全显示 */
+    }
+}
