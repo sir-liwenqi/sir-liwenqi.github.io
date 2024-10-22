@@ -7,16 +7,16 @@
 }
 
 .topquotes {
-    font-family: Archia Regular, sans-serif;
     position: absolute;
-    left: 70%;
+    right: 20%;
     top: 70%;
     color: white;
-    font-size: 20px;
+    font-size: 90%;
+    /* line-height: 90%; */
     opacity: 0;
     /* 初始状态透明 */
     animation: fadeIn 1s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
     /* 3秒后执行动画 */
 }
 
