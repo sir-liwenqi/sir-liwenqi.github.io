@@ -11,6 +11,12 @@
     <content type="html"><![CDATA[<p><em>Hello, world!</em> This is my first shot after learning about setting up a blog with Hexo.</p><span id="more"></span><p>This message is merely a test. Anyway, there are more good stuffs to be uploaded.</p><p>So, stay tuned.</p>]]></content>
     
     
+    <categories>
+      
+      <category>其它</category>
+      
+    </categories>
+    
     
   </entry>
   
