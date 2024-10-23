@@ -1,6 +1,5 @@
 #subtitle {
-    /* font-family: Noto Sans, DM Sans Medium, sans-serif; */
-    font-family: Noto Sans Regular;
+    font-family: DM Sans Medium, sans-serif;
 }
 
 .flex-center {
@@ -9,7 +8,7 @@
 
 .topquotes {
     position: absolute;
-    right: 20%;
+    right: 15%;
     top: 70%;
     color: white;
     font-size: 90%;
