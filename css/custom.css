@@ -26,3 +26,41 @@
         /* 最终状态完全显示 */
     }
 }
+.hr-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+
+.hr-container hr {
+    width: 100%;
+    border: none;                 /* 去除默认边框 */
+    border-top: 2px solid var(--line-color);
+}
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 将内容居中 */
+    display: flex;
+    align-items: center;
+    background-color: var(--board-bg-color);      /* 背景色遮盖住 <hr> 的中间部分 */
+    padding: 10px;               /* 给内容两侧添加内边距以遮住 <hr> */
+}
+
+.center-content i {
+    margin-right: 10px;            /* 控制 <i> 和 <p> 之间的间距 */
+    font-size: 30px;
+}
+
+.center-content p {
+    margin-left: 0px;                    /* 去除 <p> 的默认外边距 */
+    margin-bottom: 0px;
+    font-size: 22px;              /* 调整字体大小以适应图标 */
+}
+
+.about-content.page-content.mt-5 {
+    margin-top: 0 !important;
+}
